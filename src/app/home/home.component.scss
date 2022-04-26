@@ -1,14 +1,27 @@
 .header-col-wrapper{
     padding: 6px 12px;
-    background-color: #003d4c;
+    background-color: #fff;
     position: sticky;
     top: 0px;
+    border-bottom: 1px solid #ccc;
     .left-col{
-        font-size: 2rem;
-        color: #fff;
+        .logo{
+            font-size: 2rem;
+            
+        }
+    }
+    .nav-links-wrapper{
+        margin-left: 12px;
+        
     }
     .right-col{
-        
+       .user-info-wrap{
+           padding-right: 12px;
+           i{
+               font-size: 2rem;
+               margin-right: 6px;
+           }
+       } 
     }
 }
 

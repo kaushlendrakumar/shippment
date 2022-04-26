@@ -9,12 +9,16 @@ import { AuthguradServiceService } from './authgurad-service.service';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { CommonModule } from '@angular/common';
 import { HttpClientModule } from '@angular/common/http';
+import { NavLinksComponent } from './nav-links/nav-links.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     LoginComponent,
-    HomeComponent
+    HomeComponent,
+    NavLinksComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
