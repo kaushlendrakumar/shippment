@@ -1,0 +1,33 @@
+<div class="col-12 d-flex justify-content-between align-items-center header-col-wrapper">
+    <div class="left-col">Shipment</div>
+    <div class="right-col">
+        <button class="btn btn-primary">Logout</button>
+    </div>
+</div>
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-12 content-wrapper">
+            <table class="table table-bordered">
+                <thead>
+                  <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">First</th>
+                    <th scope="col">Last</th>
+                    <th scope="col">Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr *ngFor="let user of githubUsers; let idx=index;">
+                    <th>{{idx+1}}</th>
+                    <td>{{user.login}}</td>
+                    <td>{{user.id}}</td>
+                    <td>
+                        <button class="btn btn-primary"><i class="fa fa-trash"></i></button>
+                        <button class="btn btn-primary"><i class="fa fa-pencil"></i></button>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+        </div>
+    </div>
+</div>

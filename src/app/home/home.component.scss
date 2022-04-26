@@ -1,0 +1,25 @@
+.header-col-wrapper{
+    padding: 6px 12px;
+    background-color: #003d4c;
+    position: sticky;
+    top: 0px;
+    .left-col{
+        font-size: 2rem;
+        color: #fff;
+    }
+    .right-col{
+        
+    }
+}
+
+.content-wrapper{
+    padding: 6px 12px;
+    table{
+        button{
+            margin-left: 6px;
+            &:first-child{
+                margin-left: 0rem;
+            }
+        }
+    }
+}
